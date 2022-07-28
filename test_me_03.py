@@ -112,7 +112,7 @@ size = os.path.getsize('Device_list.txt')
 # 
 os.system("git add *")
 os.system("git commit -m 'auto'")
-os.system("git push")
-os.system("da2i2")
+
+
 
 
