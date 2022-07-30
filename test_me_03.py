@@ -111,7 +111,7 @@ with open('Device_list.txt', 'a') as f:
 print("================== Stress Test Done ====================")
 
 os.system("git add *")
-os.system("git commit -m 'auto'")
+os.system('git commit -m "' + Device_name + ' added"')
 os.system("git push")
 
 
