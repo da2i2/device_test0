@@ -1,2 +1,1 @@
-# device_test
-All device test info
+# device_test_s1
