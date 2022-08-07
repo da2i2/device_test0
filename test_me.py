@@ -107,9 +107,8 @@ print("Device stress test will start now")
 print("============================================")
 
 
-
-#os.system('/home/pi/.local/bin/stressberry-run -n "Temp" -d 30 -i 30 -c 4 ' + Device_name + '.dat' )
-#os.system('MPLBACKEND=Agg /home/pi/.local/bin/stressberry-plot ' + Device_name + '.dat ' + '-f -d 300 -f -l 400 2200 -t 0 90 -o ' + Device_name + '.png')
+os.system('/home/pi/.local/bin/stressberry-run -n "Temp" -d 1800 -i 30 -c 4 ' + Device_name + '.dat' )
+os.system('MPLBACKEND=Agg /home/pi/.local/bin/stressberry-plot ' + Device_name + '.dat ' + '-f -d 300 -f -l 400 2200 -t 0 90 -o ' + Device_name + '.png')
 
 print("")
 
